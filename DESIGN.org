@@ -1,0 +1,37 @@
+* Design Ideas
+** Good Zsh/Bash ideas and features
+*** Easy to run commands
+*** Chaining commands is straightforward
+*** Piping generally works
+*** File redirection
+*** Search backwards mostly makes sense with plugins
+** Zsh/Bash things to change
+*** Insistence on POSIX compatibility
+*** Arcane syntax
+*** Difficulty of shell one-liners
+*** Difficult to create usable scripts
+*** Hard to read
+*** Hard to getopt
+*** Weird if, while, and for loops
+**** I feel like fish solves this somewhat, but not entirely
+*** White space rules....sort of? For loops and conditionals.
+*** Functions don't return
+*** Not easily usable as an actual programming language
+*** Extensibility is odd -- Writing a C or C++ based extension isn't really doable.
+**** Maybe, I just don't know how
+*** Completetion makes no sense
+*** Line buffering isn't easy to globally enable
+*** Built-in tools for sysadmins and developers
+**** Job management and looking at system resources
+*** Combining stdout & stderr is odd
+*** Something like xargs should be provided?
+*** Some sort of string templating should be first class
+*** Numerical types and arithmetic should be first class
+*** Eff case statements
+*** Getting a usable shell requires insane amount of plugins
+**** Fish sort of solves this problem
+*** Data structures should exist
+*** Actual typing
+**** Bools for conditionals
+**** Integers, Floating points, and Scientific Notation
+*** Variable expansion should make sense
